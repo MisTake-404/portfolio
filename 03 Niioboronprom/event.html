@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="telephone=no" name="format-detection">
+  <meta name="HandheldFriendly" content="true">	
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+  <meta name="google" value="notranslate">	
+	<meta name="robots" content="index,follow" />
+
+	<meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевое слово 1, ключевое слово 2, ключевое слово 3…" />
+	<meta name="author" content="Author site">
+	<meta name="copyright" content="Copyright site">
+
+  <title>Главная</title>
+
+  <link rel="icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+<body>
+	
+	<header id="header" class="header">
+		<div class="container header__container">
+			<div class="header__menu-icon" data-open-modal="modmenu">
+				<span></span>
+			</div>
+
+			<div class="logo header__logo">
+				<a href="/" class="text-link logo__link">
+					<img src="img/logo.svg" alt="" class="img logo__img">
+				</a>
+			</div>
+			<ul class="menu header__menu">
+				<li><a href="/" class="text-link menu__item">Главная</a></li>
+				<li><a href="events.html" class="text-link menu__item">Мероприятия</a></li>
+				<li><a href="" class="text-link menu__item">Сопровождение</a></li>
+				<li><a href="" class="text-link menu__item">Галерея</a></li>
+				<li><a href="" class="text-link menu__item">Отзывы</a></li>
+				<li><a href="" class="text-link menu__item">Контакты</a></li>
+			</ul>
+			<div class="contact header__contact">
+				<div class="contact__elements">
+					<div class="contact__lable">тел. 
+						<a href="#" class="text-link contact__link">+7(000) 000-00-00</a>
+					</div>
+					<div class="contact__lable">почта 
+						<a href="#" class="text-link contact__link">noname@gmail.com</a>
+					</div>
+				</div>
+				<div class="contact__but">
+					<a href="#">
+						<i class="icon icon--telegramBg">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="32" height="32" fill="white"/>
+								<path d="M8.09992 15.7083C12.3949 13.8371 15.2589 12.6034 16.6919 12.0074C20.7834 10.3056 21.6335 10.01 22.1877 10.0001C22.3095 9.99805 22.582 10.0283 22.7586 10.1715C22.9076 10.2924 22.9486 10.4558 22.9683 10.5705C22.9879 10.6851 23.0123 10.9464 22.9929 11.1505C22.7712 13.4801 21.8118 19.1335 21.3237 21.7427C21.1172 22.8468 20.7105 23.217 20.3168 23.2532C19.4613 23.3319 18.8116 22.6878 17.9829 22.1446C16.6862 21.2946 15.9537 20.7654 14.695 19.936C13.2404 18.9774 14.1834 18.4506 15.0124 17.5896C15.2293 17.3643 18.999 13.9355 19.0719 13.6244C19.0811 13.5855 19.0895 13.4405 19.0034 13.3639C18.9172 13.2874 18.7901 13.3136 18.6983 13.3344C18.5683 13.3639 16.4968 14.7331 12.4839 17.4419C11.8959 17.8457 11.3633 18.0424 10.8862 18.0321C10.3601 18.0207 9.34822 17.7346 8.59598 17.4901C7.67333 17.1902 6.94002 17.0316 7.00388 16.5223C7.03714 16.257 7.40248 15.9856 8.09992 15.7083Z" fill="#252525"/>
+							</svg>
+						</i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- MODAL Бургер-меню -->
+	<div class="modal" data-modal="modmenu" tabindex="-1">
+    <div class="modal__overlay"></div>
+    <div class="modal__dialog modal__dialog--fullScreen">
+      <div class="modal__close">
+        <i class="icon modal__icon modal__icon--closeWhite">
+          <svg class="icon__svg modal__svg" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="icon__path modal__path" d="M1.4 1L21.4 21" stroke-width="2" stroke-linecap="round" />
+            <path class="icon__path modal__path" d="M21 1L0.999998 21" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </i>
+      </div>
+      <div class="modal__content modal__content--burger-menu burger-menu">
+				<ul class="menu burger-menu__menu">
+					<li><a href="/" class="text-link menu__item">Главная</a></li>
+					<li><a href="events.html" class="text-link menu__item">Мероприятия</a></li>
+					<li><a href="" class="text-link menu__item">Сопровождение</a></li>
+					<li><a href="" class="text-link menu__item">Галерея</a></li>
+					<li><a href="" class="text-link menu__item">Отзывы</a></li>
+					<li><a href="" class="text-link menu__item">Контакты</a></li>
+				</ul>
+				<div class="contact burger-menu__contact">
+					<div class="contact__elements">
+						<div class="contact__lable">тел.</div>
+						<a href="#" class="text-link contact__link">+7(000) 000-00-00</a>
+						<div class="contact__lable">почта</div>
+						<a href="#" class="text-link contact__link">noname@gmail.com</a>
+					</div>
+					<div class="contact__but">
+						<a href="#">
+							<i class="icon icon--telegramBg">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="32" height="32" fill="white"/>
+									<path d="M8.09992 15.7083C12.3949 13.8371 15.2589 12.6034 16.6919 12.0074C20.7834 10.3056 21.6335 10.01 22.1877 10.0001C22.3095 9.99805 22.582 10.0283 22.7586 10.1715C22.9076 10.2924 22.9486 10.4558 22.9683 10.5705C22.9879 10.6851 23.0123 10.9464 22.9929 11.1505C22.7712 13.4801 21.8118 19.1335 21.3237 21.7427C21.1172 22.8468 20.7105 23.217 20.3168 23.2532C19.4613 23.3319 18.8116 22.6878 17.9829 22.1446C16.6862 21.2946 15.9537 20.7654 14.695 19.936C13.2404 18.9774 14.1834 18.4506 15.0124 17.5896C15.2293 17.3643 18.999 13.9355 19.0719 13.6244C19.0811 13.5855 19.0895 13.4405 19.0034 13.3639C18.9172 13.2874 18.7901 13.3136 18.6983 13.3344C18.5683 13.3639 16.4968 14.7331 12.4839 17.4419C11.8959 17.8457 11.3633 18.0424 10.8862 18.0321C10.3601 18.0207 9.34822 17.7346 8.59598 17.4901C7.67333 17.1902 6.94002 17.0316 7.00388 16.5223C7.03714 16.257 7.40248 15.9856 8.09992 15.7083Z" fill="#252525"/>
+								</svg>
+							</i>
+						</a>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div> 
+
+<!-- Главная страница -->
+
+<main id="event" class="main">
+
+	<!-- Основная инцормация об мероприятии-->
+	<section id="basic-information" class="basic-information">
+		<div class="container">
+			<!-- <h1 class="basic-information__title">Всероссийский семинар</h1>
+			<p class="basic-information__desc">при участии представителей Минобороны России, ФАС России, Минпромторга России, а также экспертов от предприятий ОПК на тему</p> -->
+
+			<div class="basic-information__flex">
+				<div class="wrapper-subtitle basic-information__tape">
+					<h2>Ценообразование на продукцию в сфере государственного оборонного заказа</h2>
+				</div>
+				<div class="basic-information__info">
+					<p class="basic-information__date">15-17 марта 2023 ГОДА</p>
+					<p class="basic-information__date">17-19 мая 2023 ГОДА</p>
+					<p class="basic-information__place">г. Москва</p>
+				</div>
+			</div>
+			<div class="basic-information__span">
+				<h3>дополнительное профессиональное образование</h3>
+			</div>
+
+			<div class="right-btn basic-information__btn">
+				<div class="event-card__buttons">
+					<div class="link-btn link-btn--red">
+						<a href="">Оставить заявку</a>
+					</div>
+					<div class="link-btn">
+						<a href="">Скачать форму заявки</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!-- Участники/организаторы -->
+	<section id="participants" class="participants">
+		<div class="grid">
+			<div class="grid__wrapper participants__wrapper">
+
+				<div class="participants__elem">
+					<div class="participants__photo participants__photo--aflat">
+						<img class="img" src="img/index/p5.png" alt="">
+					</div>
+					<div class="participants__desc">
+						<p>Финансовый университет при правительстве Российской Федерации</p>
+					</div>
+				</div>
+				<div class="participants__elem">
+					<div class="participants__photo">
+						<img class="img" src="img/logo_dark.svg" alt="">
+					</div>
+					<div class="participants__desc">
+						<p>Ответственный за координацию мероприятия АНО «НИИ ОБОРОНПРОМ»</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	
+	<!-- Подробная инцормация об мероприятии-->
+	<section id="detailed-information" class="detailed-information">
+		<div class="container">
+			<div class="detailed-information__container">
+
+				<div class="detailed-information__top">
+					<div class="detailed-information__left">
+						<div class="detailed-information__block">
+							<h3>Вид образовательной программы:</h3>
+							<p>Повышение квалификации</p>
+						</div>
+						<div class="detailed-information__block">
+							<h3>Количество общих учебных часов:</h3>
+							<p>36 ак.ч.</p>
+						</div>
+						<div class="detailed-information__block">
+							<h3>Стоимость:</h3>
+							<p>50000 руб.</p>
+						</div>
+						<div class="detailed-information__block">
+							<h3>Место проведения занятий:</h3>
+							<p>Финансовый университет при правительстве Российской Федерации</p>
+							<p>125167, Москва, пр-кт Ленинградский, д. 49/2</p>
+						</div>
+						<div class="detailed-information__block">
+							<h3>Контакты:</h3>
+							<p><b>тел.</b> +7(000) 000-00-00</p>
+							<p><b>почта</b> noname@gmail.com</p>
+						</div>
+					</div>
+		
+					<div class="detailed-information__right">
+						<div class="detailed-information__block">
+							<p>Повышение квалификации по результатам обучения подтверждается</p>
+							<!-- <br> -->
+							<h4><a href="">Удостоверением о повышении квалификации Финансового университета</a></h4>
+						</div>
+						<div class="detailed-information__block">
+							<h3>Цель ДПО:</h3>
+							<p>(дополнительное профессиональное образование) - совершенствование профессиональных компетенций, необходимых для осуществления профессиональной деятельности по обоснованному и качественному формированию цен на продукцию предприятий оборонно-промышленного комплекса (ОПК), поставляемую в рамках государственного оборонного заказа.</p>
+						</div>
+						<div class="detailed-information__block">
+							<h3>Аннотация</h3>
+							<h4>Описание образовательных программ содержит:</h4>
+							<ul>
+								<li>учебный план</li>
+								<li>календарный график (режим обучения)</li>
+								<li>методические рекомендации</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		
+				<div class="detailed-information__bottom">
+					<div class="detailed-information__block">					
+						<h3>Эксперты</h3>
+						<div class="detailed-information__subblock">
+							<h4>Палкин Андрей Евгеньевич</h4>
+							<p>начальник отдела методологии ценообразования и ВВСТ Департамента оборонно-промышленного комплекса Минпромторга России</p>
+						</div>
+						<div class="detailed-information__subblock">
+							<p>начальник отдела методологии ценообразования и ВВСТ Департамента оборонно-промышленного комплекса Минпромторга России</p>
+						</div>
+						<div class="detailed-information__subblock">
+							<h4>Палкин Андрей Евгеньевич</h4>
+							<p>начальник отдела методологии ценообразования и ВВСТ Департамента оборонно-промышленного комплекса Минпромторга России</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="detailed-information__buttons">
+				<div class="link-btn">
+					<a href="">Скачать форму заявки</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="topic" class="topic">
+		<div class="container">
+			<div class="topic__list">
+				<div class="topic__item">
+					<h3>Тема 1</h3>
+					<p>Контрактная работа (типовые условия государственных контрактов), ответственность Головных исполнителей и исполнителей всех уровней кооперации. Обеспечение рентабельности продукции при заключении контрактов.</p>
+				</div>
+				<div class="topic__item">
+					<h3>Тема 2</h3>
+					<h4>(2 блока)</h4>
+					<p>Комплект обосновывающих документов (РКМ) с учетом изменений вступивших в силу в соответствии с Приказом ФАС России от 16.12.2022 № 995/22 «Об утверждении форм документов, предусмотренных Положением о государственном регулировании цен на продукцию, поставляемую по государственному оборонному заказу, утвержденным постановлением Правительства Российской Федерации от 2 декабря 2017 года № 1465»</p>
+				</div>
+				<div class="topic__item">
+					<h3>Тема 2</h3>
+					<h4>(2 блока)</h4>
+					<p>Комплект обосновывающих документов (РКМ) с учетом изменений вступивших в силу в соответствии с Приказом ФАС России от 16.12.2022 № 995/22 «Об утверждении форм документов, предусмотренных Положением о государственном регулировании цен на продукцию, поставляемую по государственному оборонному заказу, утвержденным постановлением Правительства Российской Федерации от 2 декабря 2017 года № 1465»</p>
+				</div>
+			</div>
+
+			<div class="topic__btn">
+				<div class="link-btn link-btn--red">
+					<a href="">Скачать</a>
+				</div>
+				<div class="link-btn">
+					<a href="">Скачать форму заявки</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</main>
+
+	<!-- Контакты -->
+<section id="our-contacts" class="section our-contacts">
+	<div class="container">
+		<div class="title-h2 our-contacts__title">
+			<h2>Контакты</h2>
+		</div>
+
+		<div class="grid our-contacts__order">
+			<div class="grid__wrapper main-order main-order--seminar">
+				<div class="main-order__el" style="background-image: url('img/order.svg')">
+					<!-- <img src="img/order.svg" class="img" alt=""> -->
+				</div>
+				<form action="" class="main-order__form">
+					<div class="title-h3 main-order__h3">
+						<h3>Оставить заявку</h3>
+					</div>
+					<div class="text main-order__text">
+						<p>на участие в семинаре</p>
+					</div>
+					<div class="main-order__wrapper">
+						<input class="main-order__input" type="text" name="name" placeholder="имя">
+						<input class="main-order__input" type="text" name="org" placeholder="организация">
+						<input class="main-order__input" type="tel" name="tel" placeholder="номер телефона">
+						<textarea class="main-order__input main-order__input--textarea" name="mess" placeholder="комментарий"></textarea>
+						<input class="main-order__input main-order__input--email" type="email" name="email" placeholder="e-mail">
+					</div>
+					<div class="main-order__button">
+						<div class="link-btn link-btn--red main-order__btn">
+							<a href="">Отправить</a>
+							<!-- <input class="main-order__btn" type="submit" name="name" value="Отправить"> -->
+						</div>
+						<div class="text main-order__desc">
+							<p>нажимая “отправить” вы соглашаетесь на обработку персональных данных</p>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="grid our-contacts__connection">
+			<div class="grid__wrapper main-conn">
+				<div class="main-conn__el">
+					<div class="main-conn__title">
+						<h4>Телефон</h4>
+					</div>
+					<div class="text-link main-conn__link">
+						<a href="">
+							<i class="icon icon--tel">
+								<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.78571C0 1.52335 1.02335 0.5 2.28571 0.5H3.33076C3.98629 0.5 4.55769 0.946139 4.71668 1.58209L5.55919 4.95214C5.6986 5.50975 5.49024 6.09661 5.03042 6.44147L4.0448 7.18069C3.94245 7.25745 3.9202 7.36985 3.94895 7.44833C4.8141 9.81009 6.68992 11.6859 9.05167 12.551C9.13015 12.5798 9.24256 12.5575 9.31932 12.4552L10.0585 11.4696C10.4034 11.0098 10.9902 10.8014 11.5479 10.9408L14.9179 11.7833C15.5539 11.9423 16 12.5137 16 13.1692V14.2143C16 15.4767 14.9767 16.5 13.7143 16.5H12C5.37258 16.5 0 11.1274 0 4.5V2.78571Z"/>
+								</svg>
+							</i>
+							+7(000) 000-00-00
+						</a>
+					</div>
+				</div>
+				<div class="main-conn__el">
+					<div class="main-conn__title">
+						<h4>Телеграм</h4>
+					</div>
+					<div class="text-link main-conn__link">
+						<a href="">
+							<i class="icon icon--telegram">
+								<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.09992 6.57841C5.39487 4.70717 8.25885 3.47353 9.69185 2.87749C13.7834 1.1757 14.6335 0.880077 15.1877 0.870212C15.3095 0.868169 15.582 0.898373 15.7586 1.04161C15.9076 1.16255 15.9486 1.32593 15.9683 1.44059C15.9879 1.55526 16.0123 1.81648 15.9929 2.02058C15.7712 4.35021 14.8118 10.0036 14.3237 12.6128C14.1172 13.7169 13.7105 14.0871 13.3168 14.1233C12.4613 14.202 11.8116 13.5579 10.9829 13.0147C9.68624 12.1647 8.95369 11.6356 7.69503 10.8061C6.24042 9.84756 7.18338 9.32072 8.01236 8.45971C8.22931 8.23438 11.999 4.80558 12.0719 4.49453C12.0811 4.45563 12.0895 4.31062 12.0034 4.23405C11.9172 4.15749 11.7901 4.18367 11.6983 4.20449C11.5683 4.23401 9.4968 5.60318 5.48389 8.31201C4.89591 8.71577 4.36333 8.91249 3.88616 8.90218C3.36012 8.89082 2.34822 8.60475 1.59598 8.36023C0.673328 8.06031 -0.0599784 7.90174 0.00387615 7.39239C0.0371355 7.12708 0.402482 6.85576 1.09992 6.57841Z"/>
+								</svg>
+							</i>
+							noname@gmail.com
+						</a>
+					</div>
+				</div>
+				<div class="main-conn__el">
+					<div class="main-conn__title">
+						<h4>Почта</h4>
+					</div>
+					<div class="text-link main-conn__link">
+						<a href="">
+							<i class="icon icon--email">
+								<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0 3.96224V10.5001C0 11.7624 1.02335 12.7858 2.28571 12.7858H13.7143C14.9767 12.7858 16 11.7624 16 10.5001V3.96224L9.19794 8.14812C8.46329 8.60021 7.53671 8.60021 6.80206 8.14812L0 3.96224Z"/>
+									<path d="M16 2.62032V2.50007C16 1.2377 14.9767 0.214355 13.7143 0.214355H2.28571C1.02335 0.214355 0 1.2377 0 2.50007V2.62032L7.40103 7.1748C7.76835 7.40084 8.23165 7.40084 8.59897 7.1748L16 2.62032Z"/>
+								</svg>
+							</i>
+							noname@gmail.com
+						</a>
+					</div>
+				</div>
+				<div class="main-conn__el">
+					<div class="main-conn__title">
+						<h4>Адрес</h4>
+					</div>
+					<div class="text main-conn__link">
+						<p>
+							Проезд Губернатора д.11 Г. Ленинград
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- Подвал -->
+<footer id="footer" class="section footer">
+	<div class="grid footer__grid">
+		<div class="grid__wrapper footer__wrapper">
+			<div class="menu footer__menu">
+				<li class="menu__item">
+					<a href="#" class="text-link menu__link menu__link--big">Главная</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="text-link menu__link menu__link--big">Мероприятия</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="text-link menu__link menu__link--big">Сопровождение</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="text-link menu__link menu__link--big">Галерея</a>
+				</li>
+				<li class="menu__item">
+					<a href="#" class="text-link menu__link menu__link--big">Контакты</a>
+				</li>
+			</div>
+			<div class="footer-conn">
+				<div class="footer-conn__el">
+					<div class="footer-conn__title">
+						<h4>Тел.</h4>
+					</div>
+					<div class="text-link footer-conn__link">
+						<a href="">
+							<i class="icon icon--telWhite">
+								<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.78571C0 1.52335 1.02335 0.5 2.28571 0.5H3.33076C3.98629 0.5 4.55769 0.946139 4.71668 1.58209L5.55919 4.95214C5.6986 5.50975 5.49024 6.09661 5.03042 6.44147L4.0448 7.18069C3.94245 7.25745 3.9202 7.36985 3.94895 7.44833C4.8141 9.81009 6.68992 11.6859 9.05167 12.551C9.13015 12.5798 9.24256 12.5575 9.31932 12.4552L10.0585 11.4696C10.4034 11.0098 10.9902 10.8014 11.5479 10.9408L14.9179 11.7833C15.5539 11.9423 16 12.5137 16 13.1692V14.2143C16 15.4767 14.9767 16.5 13.7143 16.5H12C5.37258 16.5 0 11.1274 0 4.5V2.78571Z" fill="white"/>
+								</svg>
+							</i>
+							+7(000) 000-00-00
+						</a>
+					</div>
+				</div>
+				<div class="footer-conn__el">
+					<div class="footer-conn__title">
+						<h4>Почта</h4>
+					</div>
+					<div class="text-link footer-conn__link">
+						<a href="">
+							<i class="icon icon--emailWhite">
+								<svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0 3.96224V10.5001C0 11.7624 1.02335 12.7858 2.28571 12.7858H13.7143C14.9767 12.7858 16 11.7624 16 10.5001V3.96224L9.19794 8.14812C8.46329 8.60021 7.53671 8.60021 6.80206 8.14812L0 3.96224Z" fill="white"/>
+									<path d="M16 2.62032V2.50007C16 1.2377 14.9767 0.214355 13.7143 0.214355H2.28571C1.02335 0.214355 0 1.2377 0 2.50007V2.62032L7.40103 7.1748C7.76835 7.40084 8.23165 7.40084 8.59897 7.1748L16 2.62032Z" fill="white"/>
+								</svg>
+							</i>
+							noname@gmail.com
+						</a>
+					</div>
+				</div>
+				<div class="footer-conn__el">
+					<div class="footer-conn__title">
+						<h4>Телеграм</h4>
+					</div>
+					<div class="text-link footer-conn__link">
+						<a href="">
+							<i class="icon icon--telegramWhite">
+								<svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M1.09992 6.57841C5.39487 4.70717 8.25885 3.47353 9.69185 2.87749C13.7834 1.1757 14.6335 0.880077 15.1877 0.870212C15.3095 0.868169 15.582 0.898373 15.7586 1.04161C15.9076 1.16255 15.9486 1.32593 15.9683 1.44059C15.9879 1.55526 16.0123 1.81648 15.9929 2.02058C15.7712 4.35021 14.8118 10.0036 14.3237 12.6128C14.1172 13.7169 13.7105 14.0871 13.3168 14.1233C12.4613 14.202 11.8116 13.5579 10.9829 13.0147C9.68624 12.1647 8.95369 11.6356 7.69503 10.8061C6.24042 9.84756 7.18338 9.32072 8.01236 8.45971C8.22931 8.23438 11.999 4.80558 12.0719 4.49453C12.0811 4.45563 12.0895 4.31062 12.0034 4.23405C11.9172 4.15749 11.7901 4.18367 11.6983 4.20449C11.5683 4.23401 9.4968 5.60318 5.48389 8.31201C4.89591 8.71577 4.36333 8.91249 3.88616 8.90218C3.36012 8.89082 2.34822 8.60475 1.59598 8.36023C0.673328 8.06031 -0.0599784 7.90174 0.00387615 7.39239C0.0371355 7.12708 0.402482 6.85576 1.09992 6.57841Z" fill="white"/>
+								</svg>
+							</i>
+							noname@gmail.com
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="logo footer__logo">
+			<a href="/" class="text-link logo__link">
+				<img src="img/logo.svg" alt="" class="img logo__img">
+			</a>
+		</div>
+	</div>
+</footer>
+
+<script src="js/main.min.js"></script>  
+</body>
+</html>
