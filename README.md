@@ -1,5 +1,7 @@
 # Сайт-портфолио верстальщика
 
+https://mistake-404.github.io/portfolio
+
 Меня зовут Валерия. Я занимаюсь версткой сайтов и имею коммерческий опыт работы 1,5 года. Преимущественно занимаюсь резиновая версткой. Я работаю оперативно, соблюдаю сроки и следую техническому заданию.
 
 ## Умения
@@ -16,6 +18,13 @@
 #### Дополнительно:
 - SQL, PHP
 - WordPress
+
+## Навигация по проктам
+
+- [Nonoxinol](https://mistake-404.github.io/portfolio/01 Nonoxinol/index.html)
+- [Recuperator](https://mistake-404.github.io/portfolio/02 Recuperator/index.html)
+- [Niioboronprom](https://mistake-404.github.io/portfolio/03 Niioboronprom/index.html)
+- [Proflex](https://mistake-404.github.io/portfolio/04 Proflex/index.html)
 
 ## Образование
 
