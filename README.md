@@ -19,7 +19,7 @@
 - SQL, PHP
 - WordPress
 
-## Навигация по проктам
+## Навигация по проектам
 
 - [Nonoxinol](https://mistake-404.github.io/portfolio/01_Nonoxinol/index.html)
 - [Recuperator](https://mistake-404.github.io/portfolio/02_Recuperator/index.html)
